@@ -1,16 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <!-- <meta charset="UTF-8"> -->
-    <!-- <meta name="viewport" content="width=device-width, initial-scale=1.0"> -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rankers Prep Institute</title>
     <style>
-     img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
-
         body {
             font-family: 'Arial', sans-serif;
             margin: 0;
@@ -32,6 +26,13 @@
             color: #fff;
             padding: 1em;
             text-align: center;
+        }
+
+        nav a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #fff;
+            text-decoration: none;
         }
 
         section {
@@ -85,11 +86,23 @@
             color: #333;
         }
 
-      .profile img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-}
+        img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 8px;
+        }
+
+        @media (max-width: 600px) {
+            nav {
+                display: block;
+                text-align: center;
+            }
+
+            nav a {
+                display: block;
+                margin-bottom: 10px;
+            }
+        }
     </style>
 </head>
 <body>
@@ -98,11 +111,11 @@
     </header>
 
     <nav>
-        <a href="#institute">Institute Profile</a> |
-        <a href="#profile"> Profile</a> |
-        <a href="#teachers">Teachers</a> |
-        <a href="#exams">Exams Info</a> |
-        <a href="#timetable">Time Table</a> |
+        <a href="#institute">Institute Profile</a>
+        <a href="#profile">Profile</a>
+        <a href="#teachers">Teachers</a>
+        <a href="#exams">Exams Info</a>
+        <a href="#timetable">Time Table</a>
         <a href="#fees">Course Fees</a>
     </nav>
 
@@ -113,9 +126,9 @@
     </section>
 
     <section id="profile">
-        <h2> Profile</h2>
-        <p>karthik chilumula, Founder and Director of Rankers Prep Institute, has a wealth of experience in test preparation and a passion for guiding students towards their goals.</p>
-        <img src="HTML/profile.webp" alt="Your Image" style="width:200px;height:200px">
+        <h2>Profile</h2>
+        <p>Karthik Chilumula, Founder and Director of Rankers Prep Institute, has a wealth of experience in test preparation and a passion for guiding students towards their goals.</p>
+        <img src="HTML/profile.webp" alt="Your Image">
     </section>
 
     <section id="teachers">
@@ -123,12 +136,12 @@
         <div class="profile">
             <h3>Prof. Jane Smith</h3>
             <p>Prof. Jane Smith is a seasoned educator with expertise in GATE preparation. She holds a Ph.D. in Computer Science and is dedicated to helping students achieve their best.</p>
-            <img  src="HTML/prof2.jpg" alt="Teacher 1 Image" style="width:200px;height:200px">
+            <img src="HTML/prof2.jpg" alt="Teacher 1 Image">
         </div>
         <div class="profile">
-            <h3>jenny</h3>
-            <p>jenny, a leading expert in CAT coaching, brings a unique approach to teaching. His vast knowledge and engaging teaching style make learning enjoyable for students.</p>
-            <img src="HTML/professor.jpg" alt="Teacher 2 Image" style="width:200px;height:200px;">
+            <h3>Jenny</h3>
+            <p>Jenny, a leading expert in CAT coaching, brings a unique approach to teaching. His vast knowledge and engaging teaching style make learning enjoyable for students.</p>
+            <img src="HTML/professor.jpg" alt="Teacher 2 Image">
         </div>
     </section>
 
@@ -158,17 +171,18 @@
             <tr>
                 <td>Saturday</td>
                 <td>2:00 PM - 5:00 PM</td>
-                <td>Weekend_Test</td>
+                <td>Weekend Test</td>
             </tr>
-            
         </table>
     </section>
 
     <section id="fees">
         <h2>Course Fees</h2>
-        <p>Our course fees are designed to be competitive, ensuring that quality education is accessible to all. For detailed fee structures, please contact our admissions office<u> phno : 8523031550</u>.</p>
+        <p>Our course fees are designed to be competitive, ensuring that quality education is accessible to all. For detailed fee structures, please contact our admissions office <u>phno : 8523031550</u>.</p>
     </section>
 
- 
+    <footer>
+        &copy; 2022 Rankers Prep Institute
+    </footer>
 </body>
 </html>
